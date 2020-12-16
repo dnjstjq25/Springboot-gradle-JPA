@@ -1,16 +1,14 @@
 package com.use.gradle.model;
 
 import lombok.Data;
-import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
 @Data
-@Table(name = "tb_car")
+@Table(name = "car")
 public class Car {
     @Id
     private String car_number;

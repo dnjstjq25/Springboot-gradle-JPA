@@ -1,6 +1,6 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://ws.uinetworks.kr:13309/ecar?serverTimezone=UTC&characterEncoding=UTF-8
-    username: ecar
+    url: jdbc:mysql://wsleemysql.cvajqzprzjyr.ap-northeast-2.rds.amazonaws.com:3306/test?serverTimezone=UTC&characterEncoding=UTF-8
+    username: admin
     password:
